@@ -35,6 +35,11 @@
   background-color: #eee;
   border-radius: 50%;
 }
+
+.all {
+  background: linear-gradient(blue, crimson);
+}
+
 .sidebar-label-container:hover input ~ .checkmark {
   background-color: #ccc;
 }

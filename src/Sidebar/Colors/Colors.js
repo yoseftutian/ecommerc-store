@@ -1,7 +1,7 @@
 import "./Colors.css";
 import Input from "../../components/Input";
 
-function Colors({ handleChange }) {
+const Colors = ({ handleChange }) => {
   return (
     <>
       <div>
@@ -60,6 +60,6 @@ function Colors({ handleChange }) {
       </div>
     </>
   );
-}
+};
 
 export default Colors;
